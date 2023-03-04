@@ -1,0 +1,13 @@
+[package]
+name = "raio"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "example_gabor"
+path = "bin/example_gabor/main.rs"
+
+[dependencies]
+wgpu = { git = "https://github.com/gfx-rs/wgpu.git", branch = "master" }
+nalgebra = "0.32"
+image = "0.24"
